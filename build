@@ -1,0 +1,5 @@
+#!/bin/bash
+
+echo "Building the TrackColor"
+g++ -O2 `pkg-config --cflags --libs opencv` TrackColor.cpp -o TrackC
+
